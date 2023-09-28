@@ -20,6 +20,9 @@
   padding: 8px 24px 8px 16px;
   color: #FFF;
 }
+.header .buttom a {
+  color: #FFF;
+}
 
 .text-wrapper h2 {
   font-size: 96px;

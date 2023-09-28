@@ -18,5 +18,9 @@
 background: var(--landing-page-black, #000);
 padding: 8px 24px 8px 16px;
 color: #FFF;
+& a {
+    color: #FFF;
 }
+}
+
 }
