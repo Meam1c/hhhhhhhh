@@ -1,0 +1,22 @@
+.text-wrapper h2{
+font-size: 96px;
+font-weight: 400px;
+}
+.section-1{
+    margin-top: 50px;
+        .text-wrapper{
+            display: flex;
+            justify-content: space-between;
+        }
+        .small-text{
+            align-self: flex-end;
+            max-width:400px;
+            color: var(--landing-page-smoke, #4E4F51);
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .color-text{
+            color: darkcyan;
+        }
+        
+}

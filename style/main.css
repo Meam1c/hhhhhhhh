@@ -1,9 +1,45 @@
+.header {
+  margin-top: 32px;
+}
 .header_inner {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
 }
 .header .list {
   display: flex;
   gap: 65px;
 }
+.header .list_item {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.header .buttom {
+  border-radius: 99px;
+  background: var(--landing-page-black, #000);
+  padding: 8px 24px 8px 16px;
+  color: #FFF;
+}
+
+.text-wrapper h2 {
+  font-size: 96px;
+  font-weight: 400px;
+}
+
+.section-1 {
+  margin-top: 50px;
+}
+.section-1 .text-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.section-1 .small-text {
+  align-self: flex-end;
+  max-width: 400px;
+  color: var(--landing-page-smoke, #4E4F51);
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.section-1 .color-text {
+  color: darkcyan;
+}/*# sourceMappingURL=main.css.map */
