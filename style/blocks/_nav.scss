@@ -1,0 +1,13 @@
+.header{
+   &_inner{
+    display: flex;
+justify-content: space-between;
+   }
+.list{
+    display: flex;
+    gap: 65px;
+    &_item{
+
+    }
+}
+}
