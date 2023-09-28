@@ -1,0 +1,54 @@
+.white-box h3{
+    margin-top: 32px;
+    margin-left: 32px;
+    width: 296px;
+    font-size: 40px;
+font-style: normal;
+font-weight: 400;
+}
+.red {
+    position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 180px;
+    height: 180px;
+
+    border-radius: 999px;
+    background: #FB554C;
+
+    margin: -100px 1000px 400px;
+
+    p {
+        color: white;
+        text-align: center;
+
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 32px;
+    }
+}
+
+.section-2{
+    
+    .imagen{
+        background-image:url(../../img/cover.svg);
+        width :1280px;
+    height: 500px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    }
+    .white-box{
+        border-radius: 20px;
+        background-color: #FFF;
+        width: 360px;
+        height: 436px;
+        margin-top: 32px;
+        margin-left: 32px;
+        
+    }
+}
+
