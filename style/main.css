@@ -56,6 +56,12 @@
   font-weight: 400;
 }
 
+.sb {
+  margin-top: 128PX;
+  display: flex;
+  justify-content: space-between;
+}
+
 .red {
   position: absolute;
   display: flex;
@@ -90,4 +96,50 @@
   height: 436px;
   margin-top: 32px;
   margin-left: 32px;
+}
+.section-2 .section2-buttom {
+  display: flex;
+  padding: 8px 24px 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 99px;
+  background: var(--landing-page-white, #FFF);
+  height: 30px;
+  align-items: flex-end;
+  margin-top: 442px;
+  margin-right: 15px;
+}
+
+.card h3 {
+  color: var(--landing-page-black, #000);
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.card pre {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.wrap {
+  margin-top: 64px;
+  display: flex;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.top {
+  display: flex;
+}
+
+.section-3 {
+  margin-top: 64px;
+  width: 1662px;
+  height: 900px;
+}
+.section-3 .card {
+  width: 400px;
+  padding: 32px;
 }/*# sourceMappingURL=main.css.map */

@@ -6,6 +6,13 @@
 font-style: normal;
 font-weight: 400;
 }
+
+.sb{
+    margin-top: 128PX;
+display: flex;
+justify-content: space-between;
+}
+
 .red {
     position: absolute;
 
@@ -32,7 +39,6 @@ font-weight: 400;
 }
 
 .section-2{
-    
     .imagen{
         background-image:url(../../img/cover.svg);
         width :1280px;
@@ -50,5 +56,19 @@ font-weight: 400;
         margin-left: 32px;
         
     }
+    .section2-buttom{
+        display:flex;
+        padding: 8px 24px 8px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 99px;
+background: var(--landing-page-white, #FFF);
+height:30px;
+align-items: flex-end;
+margin-top: 442px;
+margin-right: 15px;
+    }
+
 }
 
